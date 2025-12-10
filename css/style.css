@@ -35,6 +35,9 @@ h1{
 .menu div{
     background-color: burlywood;
     text-align: center;
+    padding: 20px 20px;
+    flex-grow: 1;
+    margin: 5px 0;
 }
 .menu a{
     color: green;
@@ -46,5 +49,34 @@ h1{
 .menu {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+#bold-text{
+    font-weight: bold;
+}
+footer{
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.address, .email, .tel{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    width: 600px;
+    height: 600px;
+}
+.flex-element{
+    text-align: center;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
     justify-content: space-around;
 }
